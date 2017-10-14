@@ -1,0 +1,22 @@
+{
+    "name": "codesign2/project",
+    "description": "Base Project for CODESIGN2 PHP work 2017",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "hamcrest/hamcrest-php": "^2.0"
+    },
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Lewis Cowles",
+            "email": "lewiscowles@me.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "CD2\\Core\\" : "src/"
+        }
+    }
+}
