@@ -14,7 +14,7 @@ FROM arm32v7/php:7
 #Package From Build To Slim Down Release
 
 RUN echo "Pulling watchdog binary from Github." && \
-curl -sSL https://github.com/openfaas/faas/releases/download/0.6.1/fwatchdog-armhf > /usr/bin/fwatchdog && \
+curl -sSL https://github.com/openfaas/faas/releases/download/0.6.5/fwatchdog-armhf > /usr/bin/fwatchdog && \
 chmod +x /usr/bin/fwatchdog
 
 # Add non root user
